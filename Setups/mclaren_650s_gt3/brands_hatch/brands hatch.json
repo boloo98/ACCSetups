@@ -1,0 +1,86 @@
+{
+	"carName": "mclaren_650s_gt3",
+	"basicSetup":
+	{
+		"tyres":
+		{
+			"tyreCompound": 0,
+			"tyrePressure": [ 66, 70, 65, 68 ]
+		},
+		"alignment":
+		{
+			"camber": [ 10, 11, 21, 21 ],
+			"toe": [ 30, 30, 57, 57 ],
+			"staticCamber": [ -4.6261072158813477, -4.5218038558959961, -3.9207236766815186, -3.9182975292205811 ],
+			"toeOutLinear": [ 0.0015146862715482712, 0.0015148654347285628, 0.00045419335947372019, 0.00045425214921124279 ],
+			"casterLF": 13,
+			"casterRF": 13,
+			"steerRatio": 1
+		},
+		"electronics":
+		{
+			"tC1": 3,
+			"tC2": 6,
+			"abs": 4,
+			"eCUMap": 0,
+			"fuelMix": 0,
+			"telemetryLaps": 0
+		},
+		"strategy":
+		{
+			"fuel": 32,
+			"nPitStops": 0,
+			"tyreSet": 2,
+			"frontBrakePadCompound": 3,
+			"rearBrakePadCompound": 3,
+			"pitStrategy": [
+				{
+					"fuelToAdd": 0,
+					"tyres":
+					{
+						"tyreCompound": 0,
+						"tyrePressure": [ 55, 61, 49, 54 ]
+					},
+					"tyreSet": 2,
+					"frontBrakePadCompound": 1,
+					"rearBrakePadCompound": 1
+				}
+			],
+			"fuelPerLap": 2.9500000476837158
+		}
+	},
+	"advancedSetup":
+	{
+		"mechanicalBalance":
+		{
+			"aRBFront": 6,
+			"aRBRear": 6,
+			"wheelRate": [ 3, 3, 2, 2 ],
+			"bumpStopRateUp": [ 6, 6, 2, 2 ],
+			"bumpStopRateDn": [ 0, 0, 10, 10 ],
+			"bumpStopWindow": [ 2, 2, 52, 52 ],
+			"brakeTorque": 20,
+			"brakeBias": 40
+		},
+		"dampers":
+		{
+			"bumpSlow": [ 18, 18, 15, 15 ],
+			"bumpFast": [ 12, 12, 11, 11 ],
+			"reboundSlow": [ 25, 25, 22, 22 ],
+			"reboundFast": [ 28, 28, 26, 26 ]
+		},
+		"aeroBalance":
+		{
+			"rideHeight": [ 0, 6, 1, 18 ],
+			"rodLength": [ 75.021812438964844, 75.021812438964844, 44.360652923583984, 44.360652923583984 ],
+			"splitter": 0,
+			"rearWing": 5,
+			"brakeDuct": [ 2, 2 ]
+		},
+		"drivetrain":
+		{
+			"preload": 4
+		}
+	},
+	"trackBopType": 3
+}
